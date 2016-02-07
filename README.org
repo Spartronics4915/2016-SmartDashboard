@@ -6,4 +6,5 @@
 ** Loading the .fxdash
 1. Hit the open button.
    It should look like a piece of paper in a folder.
-2. If you are connected to the robot, values should begin to show
+2. Navigate to the desired .sfx
+3. If you are connected to the robot, values should begin to show
