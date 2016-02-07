@@ -1,0 +1,9 @@
+* 2016 Smart Dashboard
+** Installation
+1. Go to <home>/wpilib/tools
+2. If you are in a file explorer, clicking sfx.jar should work.
+   If you are in a terminal, =java -jar sfx.jar= will work.
+** Loading the .fxdash
+1. Hit the open button.
+   It should look like a piece of paper in a folder.
+2. If you are connected to the robot, values should begin to show
