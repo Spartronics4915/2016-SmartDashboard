@@ -18,3 +18,8 @@
    It should look like a piece of paper in a folder.
 2. Navigate to the desired .sfx
 3. If you are connected to the robot, values should begin to show
+** Contributing to the mock-up
+1. Open up the .ditaa file
+2. The concept is quite self-explanatory, but if needed refer [[http://ditaa.sourceforge.net/][here]] for documentation.
+3. Run =$ ditaa -o dash.ditaa=
+4. Check the output png, and commit if the results are satisfactory.
