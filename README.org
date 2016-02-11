@@ -1,7 +1,7 @@
 * 2016 Smart Dashboard
 ** Mock-Up
 [[file:dash.png]]
-Key:
+** Key:
 | Color  | Meaning        |
 |--------+----------------|
 | Blue   | Camera         |
