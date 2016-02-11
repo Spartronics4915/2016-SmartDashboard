@@ -1,6 +1,14 @@
 * 2016 Smart Dashboard
 ** Mock-Up
 [[file:dash.png]]
+Key:
+| Color  | Meaning        |
+|--------+----------------|
+| Blue   | Camera         |
+| Yellow | VuMeter        |
+| Red    | Boolean        |
+| Green  | Drop Down Menu |
+| Salmon | Slider         |
 ** Installation
 1. Go to <home>/wpilib/tools
 2. If you are in a file explorer, clicking sfx.jar should work.
