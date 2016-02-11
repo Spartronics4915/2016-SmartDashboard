@@ -1,4 +1,6 @@
 * 2016 Smart Dashboard
+** Mock-Up
+[[file:dash.png]]
 ** Installation
 1. Go to <home>/wpilib/tools
 2. If you are in a file explorer, clicking sfx.jar should work.
