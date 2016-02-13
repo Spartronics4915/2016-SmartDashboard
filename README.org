@@ -24,11 +24,11 @@
 3. Run =$ ditaa -o dash.ditaa=
 4. Check the output png, and commit if the results are satisfactory.
 ** ⚡ INPROGRESS Code Status
-| Feature                       | Status     |
-|-------------------------------+------------|
-| Throttle                      | yes        |
-| Target Acquired               | yes        |
-| X & Y Targeting               | maybe      |
-| (Fast & Slow)Drive Train Mode | yes        |
-| Camera 1                      | Inprogress |
-| Camera 2                      |            |
+| Feature                       | Status      |
+|-------------------------------+-------------|
+| Throttle                      | yes         |
+| Target Acquired               | yes         |
+| X & Y Targeting               | maybe       |
+| (Fast & Slow)Drive Train Mode | yes         |
+| Camera 1                      | In progress |
+| Camera 2                      |             |
