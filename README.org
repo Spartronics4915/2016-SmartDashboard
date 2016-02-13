@@ -23,3 +23,10 @@
 2. The concept is quite self-explanatory, but if needed refer [[http://ditaa.sourceforge.net/][here]] for documentation.
 3. Run =$ ditaa -o dash.ditaa=
 4. Check the output png, and commit if the results are satisfactory.
+** Code Status
+| Feature          | Status |
+|------------------+--------|
+| Throttle         | yes    |
+| Target Acquired  | yes    |
+| Targeting        | yes    |
+| Drive Train Mode | yes    |
