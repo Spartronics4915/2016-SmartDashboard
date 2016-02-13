@@ -32,3 +32,6 @@
 | (Fast & Slow)Drive Train Mode | yes         |
 | Camera 1                      | In progress |
 | Camera 2                      |             |
+** [1/2]Target Aquired
+*** ☛ TODO foo
+*** ✔ DONE bar
