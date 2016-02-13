@@ -23,15 +23,11 @@
 2. The concept is quite self-explanatory, but if needed refer [[http://ditaa.sourceforge.net/][here]] for documentation.
 3. Run =$ ditaa -o dash.ditaa=
 4. Check the output png, and commit if the results are satisfactory.
-** ⚡ INPROGRESS Code Status
-| Feature                       | Status      |
-|-------------------------------+-------------|
-| Throttle                      | yes         |
-| Target Acquired               | yes         |
-| X & Y Targeting               | maybe       |
-| (Fast & Slow)Drive Train Mode | yes         |
-| Camera 1                      | In progress |
-| Camera 2                      |             |
-** [1/2]Target Aquired
-*** ☛ TODO foo
-*** ✔ DONE bar
+** [3/6] Status:
+*** ✔ DONE Throttle
+*** ✔ DONE Target Acquired
+*** ⚡ INPROGRESS X & Y Targeting
+*** ✔ DONE Drive Train Mode (Fast & Slow Modes)
+*** ⚡ INPROGRESS Camera 1
+*** ☛ TODO Camera 2
+** Target Acquired
