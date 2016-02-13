@@ -24,9 +24,9 @@
 3. Run =$ ditaa -o dash.ditaa=
 4. Check the output png, and commit if the results are satisfactory.
 ** Code Status
-| Feature          | Status |
-|------------------+--------|
-| Throttle         | yes    |
-| Target Acquired  | yes    |
-| Targeting        | yes    |
-| Drive Train Mode | yes    |
+| Feature                       | Status |
+|-------------------------------+--------|
+| Throttle                      | yes    |
+| Target Acquired               | yes    |
+| X & Y Targeting               | maybe  |
+| (Fast & Slow)Drive Train Mode | yes    |
