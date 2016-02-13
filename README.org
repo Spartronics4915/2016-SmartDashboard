@@ -24,13 +24,13 @@
 3. Run =$ ditaa -o dash.ditaa=
 4. Check the output png, and commit if the results are satisfactory.
 ** [3/6] Status:
+*** ☛ TODO Camera 2
 *** ✔ DONE Throttle
 *** ✔ DONE Target Acquired
-*** ⚡ INPROGRESS X & Y Targeting
-- Possibility for cross-hair style plots.
 *** ✔ DONE Drive Train Mode (Fast & Slow Modes)
 - Possibly different implementation
+*** ⚡ INPROGRESS X & Y Targeting
+- Possibility for cross-hair style plots.
 *** ⚡ INPROGRESS Camera 1
 - The frame rate is practically 0.
-*** ☛ TODO Camera 2
 ** Target Acquired
