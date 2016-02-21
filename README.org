@@ -1,36 +1,18 @@
 * 2016 Smart Dashboard
-** Mock-Up
-[[file:dash.png]]
-** Key:
-| Color  | Meaning        |
-|--------+----------------|
-| Blue   | Camera         |
-| Yellow | VuMeter        |
-| Red    | Boolean        |
-| Green  | Drop Down Menu |
-| Salmon | Slider         |
 ** Installation
 1. Go to <home>/wpilib/tools
 2. If you are in a file explorer, clicking sfx.jar should work.
    If you are in a terminal, =java -jar sfx.jar= will work.
 ** Loading the .fxdash
-1. Hit the open button.
+1. Connect to the robot.
+2. Open SFX
+3. Hit the open button.
    It should look like a piece of paper in a folder.
-2. Navigate to the desired .sfx
-3. If you are connected to the robot, values should begin to show
+4. Navigate to the desired .fxdash
+5. If you are connected to the robot, values should begin to show
 ** Contributing to the mock-up
 1. Open up the .ditaa file
 2. The concept is quite self-explanatory, but if needed refer [[http://ditaa.sourceforge.net/][here]] for documentation.
 3. Run =$ ditaa -o dash.ditaa=
 4. Check the output png, and commit if the results are satisfactory.
-** [3/6] Status:
-*** ☛ TODO Camera 2
-*** ⚡ INPROGRESS X & Y Targeting
-- Possibility for cross-hair style plots.
-*** ⚡ INPROGRESS Camera 1
-- The frame rate is practically 0.
-*** ✔ DONE Throttle
-*** ✔ DONE Target Acquired
-*** ✔ DONE Drive Train Mode (Fast & Slow Modes)
-- Possibly different implementation
 ** Target Acquired
