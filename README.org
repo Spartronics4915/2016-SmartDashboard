@@ -1,3 +1,4 @@
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}
 * 2016 Smart Dashboard
 ** Installation
 1. Go to <home>/wpilib/tools
@@ -6,13 +7,8 @@
 ** Loading the .fxdash
 1. Connect to the robot.
 2. Open SFX
-3. Hit the open button.
-   It should look like a piece of paper in a folder.
+   1. navigate to =<home>/wpilib/tools=
+   2. either click sfx.jar or, if in a command prompt, run =$ java -jar sfx.jar=
+3. =Ctrl + o=
 4. Navigate to the desired .fxdash
 5. If you are connected to the robot, values should begin to show
-** Contributing to the mock-up
-1. Open up the .ditaa file
-2. The concept is quite self-explanatory, but if needed refer [[http://ditaa.sourceforge.net/][here]] for documentation.
-3. Run =$ ditaa -o dash.ditaa=
-4. Check the output png, and commit if the results are satisfactory.
-** Target Acquired

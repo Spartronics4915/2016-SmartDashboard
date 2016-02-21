@@ -1,0 +1,62 @@
+% Created 2016-02-21 Sun 14:16
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+\author{Kawin Nikomborirak}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Kawin Nikomborirak},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 24.5.1 (Org mode 8.3.3)}, 
+ pdflang={English}}
+\begin{document}
+
+\section{2016 Smart Dashboard}
+\label{sec:orgheadline5}
+\subsection{Installation}
+\label{sec:orgheadline1}
+\begin{enumerate}
+\item Go to <home>/wpilib/tools
+\item If you are in a file explorer, clicking sfx.jar should work.
+If you are in a terminal, \texttt{java -jar sfx.jar} will work.
+\end{enumerate}
+\subsection{Loading the .fxdash}
+\label{sec:orgheadline2}
+\begin{enumerate}
+\item Connect to the robot.
+\item Open SFX
+\begin{enumerate}
+\item navigate to \texttt{<home>/wpilib/tools}
+\item either click sfx.jar or, if in a command prompt, run \texttt{\$ java -jar sfx.jar}
+\end{enumerate}
+\item \texttt{Ctrl + o}
+\item Navigate to the desired .fxdash
+\item If you are connected to the robot, values should begin to show
+\end{enumerate}
+\subsection{Contributing to the mock-up}
+\label{sec:orgheadline3}
+\begin{enumerate}
+\item Open up the .ditaa file
+\item The concept is quite self-explanatory, but if needed refer \href{http://ditaa.sourceforge.net/}{here} for documentation.
+\item Run \texttt{\$ ditaa -o dash.ditaa}
+\item Check the output png, and commit if the results are satisfactory.
+\end{enumerate}
+\subsection{Target Acquired}
+\label{sec:orgheadline4}
+\end{document}
