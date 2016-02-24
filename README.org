@@ -12,3 +12,10 @@
 3. =Ctrl + o=
 4. Navigate to the desired .fxdash
 5. If you are connected to the robot, values should begin to show
+
+** Configuring a Driver Station so our dashboard is the default
+0. copy Spartronics4915.fxsdash from github to Desktop
+1. see:  c:/Users/Public/Documents/FRC/FRC DS Data Storage.ini
+2. set the field:  
+
+    DashboardCmdLine = "java -jar <home>/wpilib/tools/sfx.jar <home>/Desktop/Spartronics4915.fxsdash" 
