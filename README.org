@@ -46,9 +46,11 @@
    overwrite it every time it exits.
 
 2. set the field DashboardType to selects V1 as our default dash
+
     DashboardType = 3
 
 3. set the field: DashboardCmdLine to config launch for V2
+ 
     DashboardCmdLine = "java -jar C:/Users\<driver>/wpilib/tools/sfx.jar <home>/Desktop/Spartronics4915.fxsdash" 
 
 4. also edit: C:/Users/Public/Documents/FRC/DashboardSettings.ini to verify
@@ -61,18 +63,23 @@
 
 1. code is here: <home>/wpilib/tools/SmartDashboard.jar
 
-2. make sure file->prefs estaablishes <home>/Desktop/Spartronics4915.xml
+2. make sure file->prefs establishes <home>/Desktop/Spartronics4915.xml
    as the default location.
 
 *** Loading the .xml
+1. loading happens at launch-time... Beware that File->Open actually
+   imports the file, so it can produce unexpected results.
 
+2. The File->Preferences dialog of the program storess the path
+   to the .xml file.  It also establishes window size and
+   allows to to "lock" the interface by disallowing automatic
+   population of the canvas.
 
 ** SmartDashboard V2 Installation (sfx)
 1. Go to <home>/wpilib/tools
 
 2. If you are in a file explorer, clicking sfx.jar should work.
    If you are in a terminal, =java -jar sfx.jar= will work.
-#
 
 *** Loading the .fxdash
 1. Connect to the robot.
