@@ -49,9 +49,10 @@
 
     DashboardType = 3
 
-3. set the field: DashboardCmdLine to config launch for V2
+3. set the field: DashboardCmdLine to config launch for V2. Note that this
+   doesn't appear to affect launch for other dashboard types. Good thing.
  
-    DashboardCmdLine = "java -jar C:/Users\<driver>/wpilib/tools/sfx.jar <home>/Desktop/Spartronics4915.fxsdash" 
+    DashboardCmdLine = "java -jar C:/Users/<driver>/wpilib/tools/sfx.jar C:/Usesrs/<driver>/Desktop/Spartronics4915.fxsdash" 
 
 4. also edit: C:/Users/Public/Documents/FRC/DashboardSettings.ini to verify
    that nothing accidental has appeared there.
