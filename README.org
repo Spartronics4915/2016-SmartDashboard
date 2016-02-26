@@ -6,44 +6,44 @@
 - SmartDashboard V1 is dusty
 
 - SmartDeshboard V2 is spiffy but buggy.. We've had serious usability issues
-with combo-boxes (for automonomous barrier selection).  We also found
-the support for multiple video streams flaky. There are enough other
-reasons to suggest that for 2017, we abandon all SmartDashboard
-implementations in favor of an in-brower, javascript-based solution.
+  with combo-boxes (for automonomous barrier selection).  We also found
+  the support for multiple video streams flaky. There are enough other
+  reasons to suggest that for 2017, we abandon all SmartDashboard
+  implementations in favor of an in-brower, javascript-based solution.
 
 - We shouldn't use V2 for a real competition but it does offer nice 
-graphing capabilities that have proven useful during development/debugging.  
-For this reason, we recommend the following workflow:
+  graphing capabilities that have proven useful during development/debugging.  
+  For this reason, we recommend the following workflow:
 
 1. Author dashboard files (.xml) for V1 using a text editor. The files are
-a simple .xml format and reasonably easy to maintain.  There is a preference
-in the V1 File menu that prevents newly appearing items from randomly
-appearing on the pristine layout. There is also a preference that specifies
-where to find the default .xml file.  The official V1 configuration is
-located here as Spartronics4915.xml.
+   a simple .xml format and reasonably easy to maintain.  There is a preference
+   in the V1 File menu that prevents newly appearing items from randomly
+   appearing on the pristine layout. There is also a preference that specifies
+   where to find the default .xml file.  The official V1 configuration is
+  located here as Spartronics4915.xml.
 
 2. Author V2 dashboard files (.fxsdash) using the interface.  We explored 
-modifying the layout via the text representation, but Kawin found that there 
-was insufficient documentation and the 'file' is really a collection of files
-hidden within a tarball. The official V2 configuration is located here as 
-Spartronics4915.fxdash.
+   modifying the layout via the text representation, but Kawin found that there 
+   was insufficient documentation and the 'file' is really a collection of files
+   hidden within a tarball. The official V2 configuration is located here as 
+   Spartronics4915.fxdash.
 
 3. Establish the convention that the Java and C++ selectors on the 
-DriverStation be wired to launch V1, while the "Default" selector
-launch V2.
+   DriverStation be wired to launch V1, while the "Default" selector
+   launch V2.
 
 4. Official/blessed dashboards are checked in here. These need to be 
-manually pushed to Driver Stations, since we don't have
-full development systems on those machines (and thus, no git). Note that
-the DriveStation prefs need to reflect the location of the pushed files.
+   manually pushed to Driver Stations, since we don't have
+   full development systems on those machines (and thus, no git). Note that
+   the DriveStation prefs need to reflect the location of the pushed files.
 
 ** Configuring a Driver Station so our dashboards are the default
-0. copy Spartronics4915.fxsdash, & .xml from github to Desktop.  A thumbdrive
-may be your best bet.
+0. copy Spartronics4915.fxsdash, & .xml from github to Desktop.  
+   A thumbdrive may be your best bet.
 
 1. edit:  C:/Users/Public/Documents/FRC/FRC DS Data Storage.ini.
-Make sure to quite DriverStation before editing this file, it will
-overwrite it every time it exits.
+   Make sure to quite DriverStation before editing this file, it will
+   overwrite it every time it exits.
 
 2. set the field DashboardType to selects V1 as our default dash
     DashboardType = 3
@@ -52,17 +52,17 @@ overwrite it every time it exits.
     DashboardCmdLine = "java -jar C:/Users\<driver>/wpilib/tools/sfx.jar <home>/Desktop/Spartronics4915.fxsdash" 
 
 4. also edit: C:/Users/Public/Documents/FRC/DashboardSettings.ini to verify
-that nothing accidental has appeared there.
+   that nothing accidental has appeared there.
 
 5. ensure that the SmartDashboard V1 preferences, pointsto the .xml
-file on the desktop.
+   file on the desktop.
 
 ** SmartDashboard V1 Installation 
 
 1. code is here: <home>/wpilib/tools/SmartDashboard.jar
 
 2. make sure file->prefs estaablishes <home>/Desktop/Spartronics4915.xml
-as the default location.
+   as the default location.
 
 *** Loading the .xml
 
