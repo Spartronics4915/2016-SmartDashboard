@@ -44,7 +44,7 @@
         class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
 		<location x="160" y="330"/>
 	</widget>
-    
+
 	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
 		<location x="280" y="320"/>
 		<property name="Text" value="Auto Strategy"/>
