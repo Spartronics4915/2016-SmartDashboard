@@ -1,143 +1,143 @@
 <xml version="1.0">
-<!-- NOTE: this is a hand-edited file... Please don't let SmartDashboard
-    save atop it.
- -->
-<dashboard>
+  <!-- NOTE: this is a hand-edited file... Please don't let SmartDashboard
+       save atop it.
+  -->
+  <dashboard>
     <!-- top row (camera) -->
-	<static-widget 
-        class="edu.wpi.first.smartdashboard.gui.elements.VideoStreamViewerExtension">
-		<location x="10" y="10"/>
-		<width>500</width>
-		<height>300</height>
-		<property name="Camera IP Address or mDNS name" 
-                 value="axis-camera4915.local"/>
-	</static-widget>
+    <static-widget 
+	class="edu.wpi.first.smartdashboard.gui.elements.VideoStreamViewerExtension">
+      <location x="10" y="10"/>
+      <width>500</width>
+      <height>300</height>
+      <property name="Camera IP Address or mDNS name" 
+		value="axis-camera4915.local"/>
+    </static-widget>
 
-	<static-widget 
-        class="edu.wpi.first.smartdashboard.gui.elements.VideoStreamViewerExtension">
-		<location x="520" y="10"/>
-		<width>500</width>
-		<height>300</height>
-		<property name="Camera IP Address or mDNS name" 
-         value="jetson4915.local/?action=stream"/>
-	</static-widget>
+    <static-widget 
+	class="edu.wpi.first.smartdashboard.gui.elements.VideoStreamViewerExtension">
+      <location x="520" y="10"/>
+      <width>500</width>
+      <height>300</height>
+      <property name="Camera IP Address or mDNS name" 
+		value="jetson4915.local/?action=stream"/>
+    </static-widget>
 
     <!-- second row (autonomous) ###################-->
-	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
-		<location x="40" y="320"/>
-		<property name="Text" value="Auto Field Position"/>
-	</static-widget>
+    <static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+      <location x="40" y="320"/>
+      <property name="Text" value="Auto Field Position"/>
+    </static-widget>
 
-	<widget field="AutoFieldPosition" type="String Chooser" 
-        class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
-		<location x="40" y="330"/>
-	</widget>
+    <widget field="AutoFieldPosition" type="String Chooser" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+      <location x="40" y="330"/>
+    </widget>
 
-	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
-		<location x="160" y="320"/>
-		<width>90</width>
-		<height>15</height>
-		<property name="Text" value="Auto Barrier"/>
-	</static-widget>
+    <static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+      <location x="160" y="320"/>
+      <width>90</width>
+      <height>15</height>
+      <property name="Text" value="Auto Barrier"/>
+    </static-widget>
 
-	<widget field="AutoBarrierType" type="String Chooser" 
-        class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
-		<location x="160" y="330"/>
-	</widget>
+    <widget field="AutoBarrierType" type="String Chooser" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+      <location x="160" y="330"/>
+    </widget>
 
-	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
-		<location x="280" y="320"/>
-		<property name="Text" value="Auto Strategy"/>
-	</static-widget>
+    <static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+      <location x="280" y="320"/>
+      <property name="Text" value="Auto Strategy"/>
+    </static-widget>
 
-	<widget field="AutoStrategy" type="String Chooser" 
-        class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
-		<location x="280" y="330"/>
-	</widget>
+    <widget field="AutoStrategy" type="String Chooser" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+      <location x="280" y="330"/>
+    </widget>
 
 
     <!-- build ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<widget field="Build" type="String" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="40" y="550"/>
-		<width>310</width>
-	</widget>
+    <widget field="Build" type="String" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="40" y="550"/>
+      <width>310</width>
+    </widget>
 
-	<widget field="Drivetrain Module" type="String" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="40" y="570"/>
-	</widget>
+    <widget field="Drivetrain Module" type="String" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="40" y="570"/>
+    </widget>
 
-	<widget field="IntakeLauncher Module" type="String" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="40" y="590"/>
-	</widget>
+    <widget field="IntakeLauncher Module" type="String" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="40" y="590"/>
+    </widget>
 
-	<widget field="Scaling Module" type="String" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="40" y="610"/>
-	</widget>
+    <widget field="Scaling Module" type="String" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="40" y="610"/>
+    </widget>
 
-	<widget field="Shift Module" type="String" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="40" y="630"/>
-	</widget>
+    <widget field="Shift Module" type="String" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="40" y="630"/>
+    </widget>
 
-	<widget field="IMU Module" type="String" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="40" y="650"/>
-	</widget>
+    <widget field="IMU Module" type="String" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="40" y="650"/>
+    </widget>
 
-	<widget field="IMU present" type="Boolean" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="40" y="670"/>
-	</widget>
+    <widget field="IMU present" type="Boolean" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="40" y="670"/>
+    </widget>
 
     <!-- IMU ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<widget field="IMU heading" type="Number" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="450" y="320"/>
-	</widget>
-	<widget field="IMU calibration" type="Number" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="620" y="320"/>
-	</widget>
+    <widget field="IMU heading" type="Number" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="450" y="320"/>
+    </widget>
+    <widget field="IMU calibration" type="Number" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="620" y="320"/>
+    </widget>
 
     <!-- Launcher ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <!-- Scaler   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
     <!-- DriveTrain ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-	<widget field="Drivetrain Throttle: " type="Number" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="380" y="550"/>
-	</widget>
-	<widget field="Drivetrain X" type="Number" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="380" y="570"/>
-	</widget>
-	<widget field="Drivetrain Y" type="Number" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="380" y="590"/>
-	</widget>
-	<widget field="Drivetrain Encoder 0" type="Number" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="380" y="610"/>
-	</widget>
-	<widget field="Drivetrain Encoder 1" type="Number" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="380" y="630"/>
-	</widget>
-	<widget field="Drivetrain Encoder 2" type="Number" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="380" y="650"/>
-	</widget>
-	<widget field="Drivetrain Encoder 3" type="Number" 
-        class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
-		<location x="380" y="670"/>
-	</widget>
-</dashboard>
+    <widget field="Drivetrain Throttle: " type="Number" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="380" y="550"/>
+    </widget>
+    <widget field="Drivetrain X" type="Number" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="380" y="570"/>
+    </widget>
+    <widget field="Drivetrain Y" type="Number" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="380" y="590"/>
+    </widget>
+    <widget field="Drivetrain Encoder 0" type="Number" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="380" y="610"/>
+    </widget>
+    <widget field="Drivetrain Encoder 1" type="Number" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="380" y="630"/>
+    </widget>
+    <widget field="Drivetrain Encoder 2" type="Number" 
+	    class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="380" y="650"/>
+    </widget>
+    <widget field="Drivetrain Encoder 3" type="Number" 
+            class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+      <location x="380" y="670"/>
+    </widget>
+  </dashboard>
 
-<live-window>
-</live-window>
-	<hidden field="Vision"/>
+  <live-window>
+  </live-window>
+  <hidden field="Vision"/>
 </xml>
